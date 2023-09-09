@@ -1,5 +1,7 @@
+https://www.freecodecamp.org/news/apache-kafka-handbook/
 
-Why do I need to convert json object to byte array
+## Q n A
+### 1.Why do I need to convert json object to byte array
 
 In Kafka, messages are transmitted as sequences of bytes, and both the key and the value of a message are expected to be byte arrays. 
 This byte-oriented nature allows Kafka to efficiently handle a wide variety of data formats and to ensure compatibility across different 
